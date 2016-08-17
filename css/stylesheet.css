@@ -38,6 +38,11 @@ header h2 {
     -webkit-animation-iteration-count: 50;
     -webkit-animation-direction:alternate;
     -webkit-animation-timing-function: ease-in-out;
+	-moz-animation-name: nowavai;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 50;
+    -moz-animation-direction:alternate;
+    -moz-animation-timing-function: ease-in-out;
 }
 
 #sec1 {
@@ -58,6 +63,11 @@ header h2 {
     -webkit-animation-iteration-count: 50;
     -webkit-animation-direction:alternate;
     -webkit-animation-timing-function: ease-in-out;
+	-moz-animation-name: ducky;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 50;
+    -moz-animation-direction:alternate;
+    -moz-animation-timing-function: ease-in-out;
 }
 
 #sec2 {
@@ -123,6 +133,21 @@ small {
 	}
 }
 
+@-moz-keyframes nowavai {
+	
+	0% {
+		color:#068DBA;
+	}
+
+	50% {
+		color:#000000;
+	}
+
+	100% {
+		color:#068DBA;
+	}
+}
+
 @-webkit-keyframes ducky {
 	
 	0% {
@@ -144,4 +169,27 @@ small {
 	75% {
 		content: url(../images/duckside5.png);
 	}
-}	
+}
+	
+@-moz-keyframes ducky {
+	
+	0% {
+		content: url(../images/duckside2.png);
+	}
+
+	25% {
+		content: url(../images/duckside3.png);
+	}
+
+	50% {
+		content: url(../images/duckside1.png);
+	}
+
+	75% {
+		content: url(../images/duckside4.png);
+	}
+
+	75% {
+		content: url(../images/duckside5.png);
+	}
+}
